@@ -2501,8 +2501,9 @@ input, select, textarea {
 		display: flex;
 		cursor: default;
 		list-style: none;
-		margin-left: -1em;
+		margin-left: 1em;
 		padding-left: 0;
+		margin-right: 1em;
 	}
 
 		ul.actions li {
@@ -2516,7 +2517,11 @@ input, select, textarea {
 			-ms-justify-content: center;
 			justify-content: center;
 			width: 100%;
-			margin-left: 0;
+		}
+		ul.actions.resume {
+			width: 100%;
+			margin-left: -1em;
+			padding-left: 0;
 		}
 
 			ul.actions.special li:first-child {
