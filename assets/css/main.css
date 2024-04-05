@@ -2259,7 +2259,7 @@ input, select, textarea {
 			border: solid 1px;
 			display: inline-block;
 			border-radius: 100%;
-			padding: 0.65em;
+			padding: 0.6em;
 			margin: 0 0 2em 0;
 			cursor: default;
 		}
@@ -2267,9 +2267,9 @@ input, select, textarea {
 			.icon.major:before {
 				display: inline-block;
 				font-size: 6.25rem;
-				width: 2.25em;
-				height: 2.25em;
-				line-height: 2.2em;
+				width: 2.07em;
+				height: 2.07em;
+				line-height: 2em;
 				border-radius: 100%;
 				border: solid 1px;
 				text-align: center;
